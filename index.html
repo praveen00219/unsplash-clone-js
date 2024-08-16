@@ -13,8 +13,8 @@
 <body class="">
 
     <!-- Header -->
-    <header class="bg-white shadow">
-        <div class="container mx-auto px-4 py-4 flex flex-col justify-between items-center">
+    <header class="bg-white shadow w-full">
+        <div class="container1 mx-auto px-4 py-4 flex flex-col justify-between items-center">
             <div class="flex items-center space-x-6 w-full">
                 <!-- logo -->
                 <img src="/assets/img/unsplash_logo_icon.webp" alt="Unsplash Logo" class="h-10">
@@ -24,8 +24,9 @@
                         class="flex-1 bg-[#eeeeee] w-full rounded-full px-10 py-2 border-none focus:outline-none">
                     <div class="search-btn absolute right-3 top-1 flex space-x-4">
                         <button class="">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24">
-                                <path fill="gray"
+                            <svg xmlns="http://www.w3.org/2000/svg" class="fill-gray-500 hover:fill-blue-500"
+                                width="1.5em" height="1.5em" viewBox="0 0 24 24">
+                                <path
                                     d="M5.25 4C4.56 4 4 4.56 4 5.25V8a1 1 0 0 1-2 0V5.25A3.25 3.25 0 0 1 5.25 2H8a1 1 0 0 1 0 2zm0 16C4.56 20 4 19.44 4 18.75V16a1 1 0 1 0-2 0v2.75A3.25 3.25 0 0 0 5.25 22H8a1 1 0 1 0 0-2zM20 5.25C20 4.56 19.44 4 18.75 4H16a1 1 0 1 1 0-2h2.75A3.25 3.25 0 0 1 22 5.25V8a1 1 0 1 1-2 0zM18.75 20c.69 0 1.25-.56 1.25-1.25V16a1 1 0 1 1 2 0v2.75A3.25 3.25 0 0 1 18.75 22H16a1 1 0 1 1 0-2zM12 13a1 1 0 1 0 0-2a1 1 0 0 0 0 2m-1.152-6c-.473 0-.906.263-1.118.678L9.242 9h-.575C7.747 9 7 9.596 7 10.5v3.864C7 15.267 7.746 16 8.667 16h6.666c.92 0 1.667-.733 1.667-1.636V10.5c0-.904-.746-1.5-1.667-1.5h-.575l-.488-1.322A1.25 1.25 0 0 0 13.152 7zM12 14a2 2 0 1 1 0-4a2 2 0 0 1 0 4" />
                             </svg>
                         </button>
@@ -36,14 +37,16 @@
 
                     </div>
                     <span class="absolute left-3 top-3">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="1.1em" height="1.1em" viewBox="0 0 512 512">
-                            <path fill="gray"
+                        <svg xmlns="http://www.w3.org/2000/svg" class="fill-gray-500 hover:fill-blue-500 cursor-pointer"
+                            width="1.1em" height="1.1em" viewBox="0 0 512 512">
+                            <path
                                 d="M456.69 421.39L362.6 327.3a173.8 173.8 0 0 0 34.84-104.58C397.44 126.38 319.06 48 222.72 48S48 126.38 48 222.72s78.38 174.72 174.72 174.72A173.8 173.8 0 0 0 327.3 362.6l94.09 94.09a25 25 0 0 0 35.3-35.3M97.92 222.72a124.8 124.8 0 1 1 124.8 124.8a124.95 124.95 0 0 1-124.8-124.8" />
                         </svg>
                     </span>
                 </form>
-                <span class="cursor-pointer">Get Unsplash+</span>
-                <button class="bg-white border hover:border-gray-500  px-4 py-1 rounded-lg">Submit an image</button>
+                <span class="cursor-pointer hover:text-blue-600">Get Unsplash+</span>
+                <button class="bg-white border hover:border-gray-500 hover:text-blue-600 px-4 py-1 rounded-lg">Submit an
+                    image</button>
                 <!-- ball / Notification icon -->
                 <span>
                     <svg xmlns="http://www.w3.org/2000/svg" class="cursor-pointer fill-gray-500 hover:fill-gray-800"
@@ -74,17 +77,15 @@
             <!-- cetegories -->
             <div class="flex  items-center mt-4">
                 <nav class="space-x-5 flex flex-1">
-                    <a href="#" class="text-gray-600 hover:text-black underline">Photos</a>
-                    <a href="#" class="text-gray-600 hover:text-black hover:underline">Illustrations</a>
-                    <a href="#" class="text-gray-600 hover:text-black hover:underline">Unsplash+</a>
-                    <a href="#" class="text-gray-600 hover:text-black hover:underline">Photos</a>
-                    <a href="#" class="text-gray-600 hover:text-black hover:underline">Wallpapers</a>
-                    <a href="#" class="text-gray-600 hover:text-black hover:underline">Nature</a>
-                    <a href="#" class="text-gray-600 hover:text-black hover:underline">3D Renders</a>
-                    <a href="#" class="text-gray-600 hover:text-black hover:underline">Travel</a>
-                    <a href="#" class="text-gray-600 hover:text-black hover:underline">Architecture & Interiors</a>
-                    <a href="#" class="text-gray-600 hover:text-black hover:underline">Textures & Patterns</a>
-                    <a href="#" class="text-gray-600 hover:text-black hover:underline">Street Photography</a>
+                    <a href="#" class="text-blue-600  underline">Coding</a>
+                    <a href="#" class="text-gray-600 hover:text-blue-600 hover:underline">Illustrations</a>
+                    <a href="#" class="text-gray-600 hover:text-blue-600 hover:underline">Unsplash+</a>
+                    <a href="#" class="text-gray-600 hover:text-blue-600 hover:underline">Nature</a>
+                    <a href="#" class="text-gray-600 hover:text-blue-600 hover:underline">3D Renders</a>
+                    <a href="#" class="text-gray-600 hover:text-blue-600 hover:underline">Travel</a>
+                    <a href="#" class="text-gray-600 hover:text-blue-600 hover:underline">Architecture & Interiors</a>
+                    <a href="#" class="text-gray-600 hover:text-blue-600 hover:underline">Textures & Patterns</a>
+                    <a href="#" class="text-gray-600 hover:text-blue-600 hover:underline">Street Photography</a>
                 </nav>
             </div>
 
@@ -92,7 +93,7 @@
     </header>
 
     <!-- Main Content -->
-    <main class="container mx-auto px-7">
+    <main class="container1 mx-auto px-7">
         <!-- Upgradation -->
         <div class="mt-10 w-full">
             <div class="flex space-x-8 items-end justify-between">
@@ -126,9 +127,9 @@
 
                         <div class="search-btn absolute right-3 top-1 flex space-x-4">
                             <button class="">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em"
-                                    viewBox="0 0 24 24">
-                                    <path fill="gray"
+                                <svg xmlns="http://www.w3.org/2000/svg" class="fill-gray-500 hover:fill-blue-500"
+                                    width="1.5em" height="1.5em" viewBox="0 0 24 24">
+                                    <path
                                         d="M5.25 4C4.56 4 4 4.56 4 5.25V8a1 1 0 0 1-2 0V5.25A3.25 3.25 0 0 1 5.25 2H8a1 1 0 0 1 0 2zm0 16C4.56 20 4 19.44 4 18.75V16a1 1 0 1 0-2 0v2.75A3.25 3.25 0 0 0 5.25 22H8a1 1 0 1 0 0-2zM20 5.25C20 4.56 19.44 4 18.75 4H16a1 1 0 1 1 0-2h2.75A3.25 3.25 0 0 1 22 5.25V8a1 1 0 1 1-2 0zM18.75 20c.69 0 1.25-.56 1.25-1.25V16a1 1 0 1 1 2 0v2.75A3.25 3.25 0 0 1 18.75 22H16a1 1 0 1 1 0-2zM12 13a1 1 0 1 0 0-2a1 1 0 0 0 0 2m-1.152-6c-.473 0-.906.263-1.118.678L9.242 9h-.575C7.747 9 7 9.596 7 10.5v3.864C7 15.267 7.746 16 8.667 16h6.666c.92 0 1.667-.733 1.667-1.636V10.5c0-.904-.746-1.5-1.667-1.5h-.575l-.488-1.322A1.25 1.25 0 0 0 13.152 7zM12 14a2 2 0 1 1 0-4a2 2 0 0 1 0 4" />
                                 </svg>
                             </button>
@@ -139,8 +140,10 @@
 
                         </div>
                         <button class="absolute left-3 top-3">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="1.1em" height="1.1em" viewBox="0 0 512 512">
-                                <path fill="gray"
+                            <svg xmlns="http://www.w3.org/2000/svg"
+                                class="cursor-pointer fill-gray-500 hover:fill-blue-500" width="1.1em" height="1.1em"
+                                viewBox="0 0 512 512">
+                                <path
                                     d="M456.69 421.39L362.6 327.3a173.8 173.8 0 0 0 34.84-104.58C397.44 126.38 319.06 48 222.72 48S48 126.38 48 222.72s78.38 174.72 174.72 174.72A173.8 173.8 0 0 0 327.3 362.6l94.09 94.09a25 25 0 0 0 35.3-35.3M97.92 222.72a124.8 124.8 0 1 1 124.8 124.8a124.95 124.95 0 0 1-124.8-124.8" />
                             </svg>
                         </button>
